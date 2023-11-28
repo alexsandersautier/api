@@ -1,4 +1,4 @@
-consumer_key = "ck_fdc0424875691b857546de49f22321c0e6ade8f3",
-consumer_secret = "cs_9273525064d883748b6bb0d7254b4d0e767b612e",
+consumer_key = "ck_b015c20b81450ec4d3f7de168040bdeb640a96ff",
+consumer_secret = "cs_c1e124ec97bc2deb38df1c26f20e95656da753be",
 db = "C:/fontes/my_fontes/orcamentos/0002/venv/varredorprodutos/wmwvendas.sqlite3"
 base_url = "https://gdrepresenta.com.br/"

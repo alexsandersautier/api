@@ -1,12 +1,13 @@
 from woocommerce import API
 import config
 from connection import Connection
-
+from pprint import pprint
 wcapi = API(
     url=config.base_url,
     consumer_key=config.consumer_key,
     consumer_secret=config.consumer_secret,
-    version="wc/v3"
+    version="wc/v3",
+    query_string_auth = True
 )
 
 def get_products():
@@ -54,6 +55,7 @@ def update_products():
             
     except Exception as e:
         print(e)
+
 while True:
     print('---Atualização de produtos----')
     option = input('1 - Para Atualizar \n2 - Para Sair \nEscolha: ')
